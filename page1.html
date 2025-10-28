@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Float Layout</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  border: 1px solid #ccc;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  padding: 10px;
+  height: 100%;
+}
+
+.left {
+  background: #f0f8ff;
+}
+
+.right {
+  background: #fff5ee;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="box left">Left Content</div>
+  <div class="box right">Right Content</div>
+</div>
+
+</body>
+</html>
