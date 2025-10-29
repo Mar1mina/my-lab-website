@@ -48,9 +48,9 @@
 <body>
 
  <div class="sidebar">
-  <a href="lab1.html">Lab 1</a>
-  <a href="lab2.html">Lab 2</a>
-  <a href="lab3.html">Lab 3</a>
+  <a href="page1.html">Lab 1</a>
+  <a href="page2.html">Lab 2</a>
+  <a href="page3.html">Lab 3</a>
 </div>
 
 
