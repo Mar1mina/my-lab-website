@@ -1,70 +1,167 @@
-# my-lab-website
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pawlos</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Lab Portfolio</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
-      display: flex;
-      height: 100vh;
+      padding: 0;
+      box-sizing: border-box;
     }
-    .sidebar {
-      width: 200px;
-      background: #f0f0f0;
-      padding: 20px;
-      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-    }
-    .sidebar a {
-      display: block;
-      margin: 10px 0;
-      text-decoration: none;
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
       color: #333;
-      font-weight: bold;
+      line-height: 1.6;
     }
-    .main {
-      flex: 1;
-      padding: 20px;
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 20px auto;
+      gap: 20px;
     }
-    .header {
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 15px 20px;
       display: flex;
       align-items: center;
-      gap: 20px;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
+      gap: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    .profile-pic {
-      width: 80px;
-      height: 80px;
+
+    .logo {
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
+      background-color: #3498db;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 20px;
+      color: white;
+      overflow: hidden;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .user-info {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .sidebar {
+      width: 250px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .sidebar h3 {
+      margin-bottom: 15px;
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+
+    .nav-list {
+      list-style: none;
+    }
+
+    .nav-list li {
+      margin-bottom: 8px;
+    }
+
+    .nav-list a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #333;
+      border-radius: 5px;
+      transition: background 0.2s;
+    }
+
+    .nav-list a:hover {
+      background-color: #3498db;
+      color: white;
+    }
+
+    .main-content {
+      flex: 1;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+
+    .profile-title {
+      font-size: 2em;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
+
+    .profile-text {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .sidebar {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
-  
-  <div class="main">
-    <div class="header">
-      <img src="prog.jpg" alt="Profile Picture" class="profile-pic">
-      <div>
-        <h2>Pawlos Yohannes</h2>
-        <p>ID:NSR/0643/16</p>
+
+  <header>
+
+    <div class="logo">
+      <img src="image2.jpg" alt="My Picture">
+    </div>
+    <div class="user-info">Zelalem Tesfa  NRS/0868/16</div>
+  </header>
+
+  <div class="container">
+
+    <aside class="sidebar">
+      <h3>My Lab Practices & Assignments</h3>
+      <ul class="nav-list">
+        <li><a href="page1.html">Lab 1</a></li>
+        <li><a href="page2.html">Lab 2</a></li>
+        <li><a href="page3.html">Lab 3</a></li>
+        <li><a href="#assn1">Assignment 1</a></li>
+        <li><a href="#lab4">Lab 4</a></li>
+        <li><a href="#more">...</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <h1 class="-title">My Profile</h1>
+      <div class="profile-text">
+        <p>Welcome to my personal academic portfolio! Here you’ll find all my completed labs and assignments organized for easy access.</p>
+        <p>I’m passionate about learning and applying new skills in practical settings. Each project represents a step forward in my journey as a student and future professional.</p>
+        <p>Feel free to explore the links on the left to view detailed reports, code, or documentation for each assignment.</p><br>
+        <p style="float: right;">Contact me at<b>:</b><a href="mailto:dnpawlosyohannes@gmail.com"><i>pawlospaw198@gmail.com</i></a></p>
       </div>
-    </div>
- <div class="sidebar">
-  <a href="page1.html">Lab 1</a>
-  <a href="page2.html">Lab 2</a>
-  <a href="page3.html">Lab 3</a>
-</div>
-<div>
-    <div>
-      <h3>Profile</h3>
-      <p>Write about yourself here — your course, department, and what this site is for.</p>
-    </div>
+    </main>
+
   </div>
 
 </body>
