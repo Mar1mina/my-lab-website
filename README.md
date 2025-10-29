@@ -46,14 +46,7 @@
   </style>
 </head>
 <body>
-
- <div class="sidebar">
-  <a href="page1.html">Lab 1</a>
-  <a href="page2.html">Lab 2</a>
-  <a href="page3.html">Lab 3</a>
-</div>
-
-
+  
   <div class="main">
     <div class="header">
       <img src="prog.jpg" alt="Profile Picture" class="profile-pic">
@@ -62,6 +55,12 @@
         <p>ID:NSR/0643/16</p>
       </div>
     </div>
+ <div class="sidebar">
+  <a href="page1.html">Lab 1</a>
+  <a href="page2.html">Lab 2</a>
+  <a href="page3.html">Lab 3</a>
+</div>
+<div>
     <div>
       <h3>Profile</h3>
       <p>Write about yourself here — your course, department, and what this site is for.</p>
