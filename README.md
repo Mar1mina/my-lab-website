@@ -158,7 +158,7 @@
         <p>Welcome to my personal academic portfolio! Here you’ll find all my completed labs and assignments organized for easy access.</p>
         <p>I’m passionate about learning and applying new skills in practical settings. Each project represents a step forward in my journey as a student and future professional.</p>
         <p>Feel free to explore the links on the left to view detailed reports, code, or documentation for each assignment.</p><br>
-        <p style="float: right;">Contact me at<b>:</b><a href="mailto:dnpawlosyohannes@gmail.com"><i>pawlospaw198@gmail.com</i></a></p>
+        <p style="float: right;">Contact me at<b>:</b><a href="mailto:dnpawlosyohannes@gmail.com"><i>dnpawlosyohannes@gmail.com</i></a></p>
       </div>
     </main>
 
