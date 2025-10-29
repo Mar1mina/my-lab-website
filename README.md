@@ -1,1 +1,72 @@
 # my-lab-website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawlos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      height: 100vh;
+    }
+    .sidebar {
+      width: 200px;
+      background: #f0f0f0;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    }
+    .sidebar a {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .main {
+      flex: 1;
+      padding: 20px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .profile-pic {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+ <div class="sidebar">
+  <a href="lab1.html">Lab 1</a>
+  <a href="lab2.html">Lab 2</a>
+  <a href="lab3.html">Lab 3</a>
+</div>
+
+
+  <div class="main">
+    <div class="header">
+      <img src="prog.jpg" alt="Profile Picture" class="profile-pic">
+      <div>
+        <h2>Pawlos Yohannes</h2>
+        <p>ID:NSR/0643/16</p>
+      </div>
+    </div>
+    <div>
+      <h3>Profile</h3>
+      <p>Write about yourself here — your course, department, and what this site is for.</p>
+    </div>
+  </div>
+
+</body>
+</html>
