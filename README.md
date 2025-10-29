@@ -133,9 +133,9 @@
   <header>
 
     <div class="logo">
-      <img src="image2.jpg" alt="My Picture">
+      <img src="prog.jpg" alt="My Picture">
     </div>
-    <div class="user-info">Zelalem Tesfa  NRS/0868/16</div>
+    <div class="user-info">Pawlos Yohannes  NRS/0643/16</div>
   </header>
 
   <div class="container">
