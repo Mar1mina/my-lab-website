@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cookie Greeting</title>
+</head>
+<body>
+  <h1 id="greeting"></h1>
+
+  <script>
+    
+    document.cookie = "username=John";
+
+    
+    let cookies = document.cookie.split(";");
+    let user = "";
+    for (let c of cookies) {
+      if (c.trim().startsWith("username=")) {
+        user = c.trim().substring("username=".length);
+      }
+    }
+
+    document.getElementById("greeting").innerText = "Hello, " + user;
+  </script>
+</body>
+</html>

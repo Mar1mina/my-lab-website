@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Visit Counter</title>
+</head>
+<body>
+  <h1 id="counter"></h1>
+
+  <script>
+    
+    let cookies = document.cookie.split(";");
+    let visits = 0;
+    for (let c of cookies) {
+      if (c.trim().startsWith("visits=")) {
+        visits = parseInt(c.trim().substring("visits=".length));
+      }
+    }
+
+    
+    visits++;
+
+    
+    document.cookie = "visits=" + visits;
+
+
+    document.getElementById("counter").innerText = "You have visited this page " + visits + " times.";
+  </script>
+</body>
+</html>
